@@ -6,3 +6,5 @@ services:
     image: ${DOCKER_USER_ID}/hw6
     ports:
       - "80:80"
+    production:
+      image: ${DOCKER_USER_ID}/ossp6:${BUILD_NUMBER}
